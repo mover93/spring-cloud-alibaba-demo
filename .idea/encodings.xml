@@ -5,6 +5,11 @@
     <file url="file://$PROJECT_DIR$/config-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-common-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-provider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sentinel-service/src/main/java" charset="UTF-8" />

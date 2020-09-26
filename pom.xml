@@ -17,6 +17,10 @@
         <module>consumer-service</module>
         <!-- sentinel服务 -->
         <module>sentinel-service</module>
+        <!-- dubbo公共api接口声明 -->
+        <module>dubbo-common-api</module>
+        <module>dubbo-provider</module>
+        <module>dubbo-consumer</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -30,10 +34,17 @@
         <spring-boot.version>2.3.2.RELEASE</spring-boot.version>
         <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
         <spring-cloud-alibaba.version>2.2.3.RELEASE</spring-cloud-alibaba.version>
+        <spring-cloud-demo.version>1.0</spring-cloud-demo.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <!-- dubbo-common-api -->
+            <dependency>
+                <groupId>com.chenming.cloud</groupId>
+                <artifactId>dubbo-common-api</artifactId>
+                <version>${spring-cloud-demo.version}</version>
+            </dependency>
             <!-- springboot -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
