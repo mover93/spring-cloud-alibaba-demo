@@ -11,6 +11,10 @@
     <modules>
         <!-- 配置中心服务 -->
         <module>config-service</module>
+        <!-- 服务提供者服务 -->
+        <module>provider-service</module>
+        <!-- 消费者服务 -->
+        <module>consumer-service</module>
     </modules>
 
     <packaging>pom</packaging>
