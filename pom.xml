@@ -15,6 +15,8 @@
         <module>provider-service</module>
         <!-- 消费者服务 -->
         <module>consumer-service</module>
+        <!-- sentinel服务 -->
+        <module>sentinel-service</module>
     </modules>
 
     <packaging>pom</packaging>
