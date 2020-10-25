@@ -1,0 +1,16 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: gateway-service
+
+  cloud:
+    gateway:
+      routes:
+        - id: add_request_header_route
+          uri: https://blog.csdn.net
+          predicates:
+            - Path=/csdn
+          filters:
+            - AddResponseHeader=X-Request-red, blue

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo-consumer" />
+        <module name="gateway-service" />
         <module name="dubbo-common-api" />
         <module name="consumer-service" />
         <module name="config-service" />
@@ -17,6 +19,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="discovery-service" target="1.8" />
+      <module name="rocketmq-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
