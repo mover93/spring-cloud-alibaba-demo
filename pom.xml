@@ -23,6 +23,8 @@
         <module>dubbo-consumer</module>
         <!-- 网关服务 -->
         <module>gateway-service</module>
+        <!-- 统一认证服务 -->
+        <module>oauth2-service</module>
     </modules>
 
     <packaging>pom</packaging>

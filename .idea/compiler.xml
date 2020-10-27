@@ -10,6 +10,7 @@
         <module name="dubbo-consumer" />
         <module name="gateway-service" />
         <module name="dubbo-common-api" />
+        <module name="oauth2-service" />
         <module name="consumer-service" />
         <module name="config-service" />
         <module name="provider-service" />
